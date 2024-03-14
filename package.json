@@ -1,0 +1,31 @@
+{
+  "name": "js-bundler-lite",
+  "version": "1.0.0",
+  "description": "A very simple lite implementation of how js bundlers are working!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "bundle": "node bundle.js"
+  },
+  "keywords": [
+    "javascript",
+    "bundlers",
+    "webpack",
+    "babel"
+  ],
+  "author": "Ahmed Elsherif",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "babel-core": "^6.26.3",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0",
+    "highlight.js": "^11.9.0",
+    "js-beautify": "^1.14.3"
+  },
+  "dependencies": {
+    "@babel/highlight": "^7.23.4"
+  }
+}
